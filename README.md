@@ -13,7 +13,8 @@ El código de Vagrant para el despliegue sería el siguiente:
 2. `sudo systemctl restart nginx`
 3. `/var/www/html/index.html`
 4. `sudo apt install -y curl`
-5. <img src="./imgs/curl_web.pmng" alt="Curl w1">
+5.
+<img src="./imgs/curl_web.png" alt="Curl w1">
    
 ## Nginx *proxy* inverso
 
@@ -22,8 +23,8 @@ El código de Vagrant para el despliegue sería el siguiente:
 1. `/etc/hosts`  
 <img src="./imgs/default_proxy.png" alt="First Proxy Default">
 2. `sudo systemctl restart nginx`
-
-3. <img src="./imgs/proxy_w1.png" alt="Curl proxy">
+3. 
+<img src="./imgs/proxy_w1.png" alt="Curl proxy">
 
 ## Logs
 
@@ -60,7 +61,8 @@ Si accedemos mediante un nombre de host www.192.168.57.10.nip.io, veremos que la
 `/etc/nginx/sites-enabled/default de web`
 <img src="./imgs/default_w1_1.png" alt="Default w1 1">
 2. `sudo systemctl restart nginx` 
-3. <img src="./imgs/cabecera_10_host.png" alt="Cabecera host">
+3. 
+<img src="./imgs/cabecera_10_host.png" alt="Cabecera host">
 
 ## Ampliación
 
