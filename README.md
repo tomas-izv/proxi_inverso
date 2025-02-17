@@ -22,7 +22,8 @@ El código de Vagrant para el despliegue sería el siguiente:
 
 1. `/etc/hosts`  
 <img src="./imgs/default_proxy.png" alt="First Proxy Default">
-1. `sudo systemctl restart nginx
+2. `sudo systemctl restart nginx
+ 
 3. 
  
 <img src="./imgs/proxy_w1.png" alt="Curl proxy">
