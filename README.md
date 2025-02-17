@@ -22,8 +22,9 @@ El código de Vagrant para el despliegue sería el siguiente:
 
 1. `/etc/hosts`  
 <img src="./imgs/default_proxy.png" alt="First Proxy Default">
-2. `sudo systemctl restart nginx`
+1. `sudo systemctl restart nginx
 3. 
+ 
 <img src="./imgs/proxy_w1.png" alt="Curl proxy">
 
 ## Logs
@@ -62,14 +63,11 @@ Si accedemos mediante un nombre de host www.192.168.57.10.nip.io, veremos que la
 <img src="./imgs/default_w1_1.png" alt="Default w1 1">
 2. `sudo systemctl restart nginx` 
 3. 
-<img src="./imgs/cabecera_10_host.png" alt="Cabecera host">
+<img src="./imgs/cabecera_10_dns.png" alt="Cabecera DNSx">
 
 ## Ampliación
 
-
-
-
-
-
-
-
+1. `docker-compose up -d`
+<img src="./imgs/docker_up.png" alt="Docker up">
+2. Resultado:
+<img src="./imgs/cabecera_10_dns.png" alt="Cabecera DNSy">
